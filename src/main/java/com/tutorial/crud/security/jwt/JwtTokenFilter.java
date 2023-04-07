@@ -1,6 +1,6 @@
 package com.tutorial.crud.security.jwt;
 
-import com.tutorial.crud.security.repository.service.UserDetailsServiceImpl;
+import com.tutorial.crud.security.service.UserDetailsServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,7 +2,7 @@ package com.tutorial.crud.security;
 
 import com.tutorial.crud.security.jwt.JwtEntryPoint;
 import com.tutorial.crud.security.jwt.JwtTokenFilter;
-import com.tutorial.crud.security.repository.service.UserDetailsServiceImpl;
+import com.tutorial.crud.security.service.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

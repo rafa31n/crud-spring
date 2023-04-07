@@ -62,7 +62,7 @@ public class ProductoController {
     @PutMapping("/{id}")
     public ResponseEntity<Mensaje> update(@PathVariable("id") int id, @RequestBody ProductoDto productDto) {
         if (!productoService.existsById(id)) {
-            return new ResponseEntity<Mensaje>(new Mensaje("El El producto no existe"), HttpStatus.NOT_FOUND);
+            return new ResponseEntity<Mensaje>(new Mensaje("El producto no existe"), HttpStatus.NOT_FOUND);
         }
         if (productoService.existsByNombre(productDto.getNombre()) && productoService.getByNombre(productDto.getNombre()).get().getId() != id) {
             return new ResponseEntity<Mensaje>(new Mensaje("El nombre ya se encuentra registrado"), HttpStatus.BAD_REQUEST);

@@ -1,4 +1,4 @@
-package com.tutorial.crud.security.repository.service;
+package com.tutorial.crud.security.service;
 
 import com.tutorial.crud.security.repository.UsuarioRepository;
 import com.tutorial.crud.security.entity.Usuario;
